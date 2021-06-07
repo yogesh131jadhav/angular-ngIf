@@ -1,10 +1,19 @@
-<hello name="{{ name }}"></hello>
-<p>
-  Start editing to see some magic happen :)
-</p>
+<h1>ngTemplate Example</h1>
 <div *ngIf="canEdit; else case1">
   This area will reflect returned case
 </div>
 <ng-template #case1>
   This is case 1 execute when condition returns case1
 </ng-template>
+<br/><br/>
+------------------------------------------------------------------------------------------
+<br/><br/>
+<h1>ngContent example</h1>
+<app-parent></app-parent>
+<br/><br/>
+------------------------------------------------------------------------------------------
+<br/><br/>
+<h1>ngContainer example</h1>
+<ng-container>
+  Hello Container
+</ng-container>
